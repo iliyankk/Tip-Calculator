@@ -1,0 +1,144 @@
+* {
+    font-family: "Lucida Console", "monospace";
+    user-select: none;
+}
+
+body {
+    background: lightcyan;
+    margin: 0px;
+}
+
+#align1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: -webkit-fill-available;
+    align-items: center;
+    height: -webkit-fill-available;
+}
+
+#tip {
+    background: lightblue;
+    border: 1px solid;
+    width: 27%;
+    height: auto;
+    cursor: default;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#inpt-div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#amount-input {
+    height: 30px;
+    outline: none;
+}
+
+#tip-select {
+    height: 30px;
+    outline: none;
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+}
+
+option {
+    text-align: center;
+}
+
+option:hover {
+    background:  grey;
+}
+
+#people-input {
+    height: 20px;
+    outline: none;
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#clc-tip-btn {
+    font-size: 1.3rem;
+    margin: 0px auto;
+    display: flex;
+    height: 35px;
+    align-items: center;
+    outline: none;
+    background: lightblue;
+    border: 2px solid lightcyan;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
+
+#tip-amount {
+    display: flex;
+    margin: 0px auto;
+    width: fit-content;
+    font-size: 1.3rem;
+}
+
+#profile-links {
+    display: grid;
+    grid-gap: 5px;
+    margin: 10px 0 5px 5px;
+}
+
+.pl {
+    text-decoration: none;
+    font-size: 1.2rem;
+    width: fit-content;
+    color: black;
+}
+
+.fa {                           
+    font-size: 25px !important;
+    margin-right: 5px !important;
+}
+
+
+
+@media only screen and (max-width: 1850px) {
+    #tip {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #tip {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #tip {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #tip {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #tip {
+        width: 350px;
+    }
+}

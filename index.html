@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="tip-calculator.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="align1">
+        <div id="tip">
+            <h1>Tip Calculator</h1>
+            <div style="border: 0.5px solid lightcyan;margin-top: 20px;"></div>
+            <div id="inpt-div">
+                <p style="font-size: 1.5rem; margin: 0px;" >Amount:</p>
+                <input id="amount-input" type="text" placeholder="$" inputmode="numeric">
+            </div>
+            <div id="tip-div">
+                <p style="text-align: center;">How much would you like to tip?</p>
+                <select id="tip-select">
+                    <option value="">Select</option>
+                    <option value="0.05">5%</option>
+                    <option value="0.1">10%</option>
+                    <option value="0.15">15%</option>
+                    <option value="0.2">20%</option>
+                    <option value="0.3">30%</option>
+                    <option value="0.5">50%</option>
+                    <option value="1">100%</option>
+                </select>
+            </div>
+            <div>
+                <p style="text-align: center;">With how many people are you sharing the bill with?</p>
+                <input id="people-input" type="text" placeholder="1(only me)">
+            </div>
+            <button id="clc-tip-btn" onclick="calculate()">Calculate tip</button>
+            <div style="border: 0.5px solid lightcyan;margin-top: 20px;"></div>
+            <div>
+                <h2>Tip Amount</h2>
+                <div id="tip-amount">
+                    <span id="ds">$</span>
+                    <span id="end-amount"></span> 
+                </div>
+            </div>
+            <div style="border: 0.5px solid lightcyan;margin-top: 50px;"></div>
+            <div id="profile-links">
+                <a class="pl" href="https://github.com/iliyankk" target="_blank"> <i class="fa fa-github"></i>@iliyankk</a>
+                <a class="pl" href="https://www.linkedin.com/in/iliyan-kiryakov-4b50a1245/" target="_blank"> <i class="fa fa-linkedin-square"></i>@iliyan-kiryakov</a>
+                <a class="pl" href="mailto:iliyankiryakovv@gmail.com"> <i class="fa fa-envelope"></i>iliyankiryakovv@gmail.com</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
