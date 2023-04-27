@@ -15,5 +15,7 @@ The app will display the tip amount and total bill in the "Tip Amount" and "Tota
 HTML
 CSS
 JavaScript
+#Contributing
+If you would like to contribute to this project, please feel free to fork the repository and submit a pull request with your changes.
 # Credits
 This app was created by Iliyan Kiryakov . If you have any questions or suggestions, you can find more about me on my LinkedIn profile (https://www.linkedin.com/in/iliyan-kiryakov-4b50a1245/) or contact me at iliyankiryakovv@gmail.com.
